@@ -1,0 +1,55 @@
+p.error {
+    color: red;
+}
+
+p.success.feedback {
+    color: blue;
+    border: 3px solid crimson;
+}
+
+#content {
+    background-color: #ebebeb;
+    padding: 20px;
+}
+
+div p {
+    color: purple;
+}
+
+
+ div .error {
+    color: red;
+}
+
+a[href*="codeforces"] {
+    background-color: #9273c4;
+    color: pink;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a[href$=".com"] {
+    background-color: #504343;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+
+div {
+    color: lightcoral;
+    border: 3px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+
+div p {
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+
+p {
+    color: orange;
+}
